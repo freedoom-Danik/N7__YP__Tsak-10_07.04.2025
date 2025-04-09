@@ -1,4 +1,4 @@
-﻿namespace N7__YP__Tsak_10_07._04._2025
+﻿namespace N7__YP__Task_10_07._04._2025
 {
     internal class Program
     {
