@@ -4,13 +4,10 @@
     {
         static void Main()
         {
-            Console.Write("input string: ");
+            Console.WriteLine("Введите строку:");
             string input = Console.ReadLine();
-
-            string[] words = input.Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
-            Array.Reverse(words);
-            string rusult = string.Join(" ", words);
-            Console.WriteLine(rusult);
+            string result = string.Join(" ", input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Reverse());
+            Console.WriteLine(result);
         }
     }
 }
